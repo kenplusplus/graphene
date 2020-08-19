@@ -998,7 +998,7 @@ int main(int argc, char* argv[], char* envp[]) {
     bool exec_uri_inferred = false; // Handle the case where the exec uri is
                                     // inferred from the manifest name somewhat
                                     // differently
-    bool need_gsgx = true;
+    bool need_gsgx = false;
 
     force_linux_to_grow_stack();
 
